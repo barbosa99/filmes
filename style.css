@@ -1,0 +1,19 @@
+.container img { 
+max-width: 300px; 
+margin-left: -180px;
+}
+
+.container h1 {
+margin-left: -110px;    
+color: white;
+}
+
+.fundo {
+    background-color: black;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+}

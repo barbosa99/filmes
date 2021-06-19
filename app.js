@@ -34,7 +34,7 @@ function exibeFilmes (evt) {
         let imagem = IMG_PREFIX + filmes.results[i].poster_path;
         let filmedetails = DETAILS + filmes.results[i].id + filmes.results[i].original_title;
 
-        textoHTML += `<div class="card col-2">
+        textoHTML += `<div class="col-6 col-xs-12 col-sm-4 col-md-3 co-lg-2">
             <img src="${imagem}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${titulo}</h5>
